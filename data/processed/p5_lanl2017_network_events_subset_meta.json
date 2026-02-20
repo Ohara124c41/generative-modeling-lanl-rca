@@ -1,0 +1,15 @@
+{
+  "dataset_mode": "lanl2017_network",
+  "source_files": [
+    "data\\raw\\2017\\netflow_day-02.csv",
+    "data\\raw\\2017\\netflow_day-03.csv"
+  ],
+  "events": 300000,
+  "max_events": 300000,
+  "enforce_raw_mb_per_source": true,
+  "max_raw_mb_per_source": 50.0,
+  "raw_bytes_read_per_source": {
+    "netflow_day-02.csv": 21981062
+  },
+  "created_utc": "2026-02-20T03:59:08.330069+00:00"
+}
